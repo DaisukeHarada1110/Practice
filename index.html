@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">会社紹介</a></li>
+        <li><a href="#services">サービス</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slideshow">
+    <img src="IMG_0372.JPG" class="slide active" alt="スライド1">
+    <img src="IMG_0436.JPG" class="slide" alt="スライド2">
+    <img src="IMG_0489.JPG" class="slide" alt="スライド3">
+  </div>
+
+  <h1 id="about" class="fade-in">ようこそ！俺の会社へ</h1>
+  <p>俺の会社は、スタジオの内装、ライブハウス改装、Web制作を手がけてるやで！</p>
+  <h2 id="services">📌主なサービス</h2>
+  <ul>
+    <li>レンタルスタジオの内装</li>
+    <li>ライブハウスの音響・照明施工</li>
+    <li>Webサイトの制作（VSCodeでガチ）</li>
+  </ul>
+  <h2 id="gallery">ギャラリー</h2>
+  <img src="IMG_0578.JPG" alt="廃墟風スタジオ" width="300" height="200">
+<h2 id="contact">お問い合わせ</h2>
+<form class="contact-form">
+  <label for="name">お名前:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">メールアドレス:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">メッセージ:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <button type="submit" class="btn">送信</button>
+</form>
+<p>メールでどうぞ:<a href="mailto:info@example.com" class="btn">info@example.com</a></p>
+
+<section class="news">
+  <h2>最新ニュース</h2>
+  <ul class="news-list">
+    <li>
+      <span class="date">2025.04.15</span>
+    <a href="#">新しいスタジオが完成しました！</a>
+    </li>
+    <li>
+      <span class="date">2025.04.10</span>
+      <a href="#">ライブハウス改装レポートを公開しました。</a>
+    </li>  
+    <li>
+      <span class="date">2025.04.01</span>
+      <a href="#">Web制作案件スタート！</a>
+    </li>
+  </ul>
+</section>
+<script src="script.js"></script>
+
+<footer class="site-footer">
+  <p>&copy; 2025 俺の会社. All rights reserved.</p>
+  <ul class="footer-links">
+    <li><a href="#">X<span class="footnote">（旧Twitter）</span></a></li>
+    <li><a href="#">Instagram</a></li>
+    <li><a href="#">Youtube</a></li>
+  </ul>
+</footer>
+</body>
+</html>
